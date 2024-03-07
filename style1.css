@@ -1,0 +1,30 @@
+.munici {
+    background-color: antiquewhite;
+    cursor: pointer;
+    margin: 10px;
+}
+.logo2
+{
+    width:200px;
+    height:60px;
+}
+.mettupalayam,.pollachi,.valparai,.kudalore,.karumathampatti
+{
+display: none;
+}
+.mettupalayam.container,.pollachi.container,.valparai.container,.kudalore.container,.karumathampatti.container{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 710px;
+    position: relative;
+    
+}
+.mettupalayam .li,.pollachi .li,.valparai .li,.kudalore .li,.karumathampatti .li{
+    position: absolute;
+    left: 30%;
+    font-size: 30px;
+}
+
+.display{
+    display: block;
+}
